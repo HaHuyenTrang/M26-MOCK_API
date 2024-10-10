@@ -1,0 +1,22 @@
+{
+  "product": [
+    {
+      "name": "táo",
+      "price": 18000,
+      "quantity": 34,
+      "id": 4
+    },
+    {
+      "name": "🍓 dâu",
+      "price": 230000,
+      "quantity": 7,
+      "id": 5
+    },
+    {
+      "name": "dứa",
+      "price": 67000,
+      "quantity": 5,
+      "id": 6
+    }
+  ]
+}

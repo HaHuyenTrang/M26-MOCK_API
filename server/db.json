@@ -1,22 +1,337 @@
 {
   "product": [
     {
-      "name": "táo",
-      "price": 18000,
-      "quantity": 34,
+      "id": 1,
+      "name": "Cam",
+      "price": 10000,
+      "quantity": 10,
+      "description": "Ngon và ngọt"
+    },
+    {
+      "id": 2,
+      "name": "Táo",
+      "price": 12000,
+      "quantity": 15,
+      "description": "Giòn và tươi"
+    },
+    {
+      "name": "Ổi xanh",
+      "price": 30000,
+      "quantity": 28,
+      "description": "Chua",
       "id": 4
     },
     {
-      "name": "🍓 dâu",
-      "price": 230000,
-      "quantity": 7,
-      "id": 5
+      "id": 5,
+      "name": "Nho",
+      "price": 20000,
+      "quantity": 12,
+      "description": "Nho ngọt, không hạt"
     },
     {
-      "name": "dứa",
-      "price": 67000,
+      "id": 6,
+      "name": "Xoài",
+      "price": 18000,
+      "quantity": 8,
+      "description": "Chín, ngọt đậm"
+    },
+    {
+      "id": 7,
+      "name": "Bưởi",
+      "price": 25000,
       "quantity": 5,
-      "id": 6
+      "description": "Bưởi hồng ngọt"
+    },
+    {
+      "id": 8,
+      "name": "Dứa",
+      "price": 9000,
+      "quantity": 10,
+      "description": "Ngọt và thơm"
+    },
+    {
+      "id": 9,
+      "name": "Lê",
+      "price": 14000,
+      "quantity": 13,
+      "description": "Giòn và mọng nước"
+    },
+    {
+      "id": 10,
+      "name": "Mận",
+      "price": 11000,
+      "quantity": 9,
+      "description": "Chua ngọt tự nhiên"
+    },
+    {
+      "id": 11,
+      "name": "Chanh",
+      "price": 6000,
+      "quantity": 25,
+      "description": "Tươi, có vị chua"
+    },
+    {
+      "id": 12,
+      "name": "Ổi",
+      "price": 9000,
+      "quantity": 18,
+      "description": "Ngọt và giòn"
+    },
+    {
+      "id": 13,
+      "name": "Lựu",
+      "price": 16000,
+      "quantity": 6,
+      "description": "Ngọt và nhiều hạt"
+    },
+    {
+      "id": 14,
+      "name": "Dừa",
+      "price": 12000,
+      "quantity": 14,
+      "description": "Nước ngọt, mát"
+    },
+    {
+      "id": 15,
+      "name": "Kiwi",
+      "price": 22000,
+      "quantity": 8,
+      "description": "Chua ngọt, bổ dưỡng"
+    },
+    {
+      "id": 16,
+      "name": "Sầu riêng",
+      "price": 30000,
+      "quantity": 4,
+      "description": "Đậm đà, mùi đặc trưng"
+    },
+    {
+      "id": 17,
+      "name": "Na",
+      "price": 17000,
+      "quantity": 10,
+      "description": "Chín mềm, thơm"
+    },
+    {
+      "id": 18,
+      "name": "Mãng cầu",
+      "price": 18000,
+      "quantity": 7,
+      "description": "Ngọt và nhiều dinh dưỡng"
+    },
+    {
+      "id": 19,
+      "name": "Quýt",
+      "price": 13000,
+      "quantity": 20,
+      "description": "Ngọt dịu, dễ ăn"
+    },
+    {
+      "id": 20,
+      "name": "Việt quất",
+      "price": 25000,
+      "quantity": 9,
+      "description": "Chua ngọt, giàu dinh dưỡng"
+    }
+  ],
+  "student": [
+    {
+      "id": 1,
+      "student_name": "",
+      "address": "",
+      "email": "",
+      "phone": 0,
+      "status": false,
+      "created": ""
+    },
+    {
+      "id": 2,
+      "student_name": "Minh",
+      "address": "Hà Nội",
+      "email": "minh456@gmail.com",
+      "phone": 67890,
+      "status": false,
+      "created": "20/08/2006"
+    },
+    {
+      "id": 3,
+      "student_name": "Lan",
+      "address": "Đà Nẵng",
+      "email": "lan789@gmail.com",
+      "phone": 54321,
+      "status": true,
+      "created": "10/01/2007"
+    },
+    {
+      "id": 4,
+      "student_name": "Hùng",
+      "address": "TP.HCM",
+      "email": "hung101@gmail.com",
+      "phone": 98765,
+      "status": false,
+      "created": "30/11/2004"
+    },
+    {
+      "id": 5,
+      "student_name": "Mai",
+      "address": "Nha Trang",
+      "email": "mai112@gmail.com",
+      "phone": 13579,
+      "status": true,
+      "created": "25/12/2003"
+    },
+    {
+      "id": 6,
+      "student_name": "Khoa",
+      "address": "Hải Phòng",
+      "email": "khoa234@gmail.com",
+      "phone": 24680,
+      "status": false,
+      "created": "05/02/2005"
+    },
+    {
+      "id": 7,
+      "student_name": "Hoa",
+      "address": "Cần Thơ",
+      "email": "hoa345@gmail.com",
+      "phone": 36912,
+      "status": true,
+      "created": "15/03/2006"
+    },
+    {
+      "id": 8,
+      "student_name": "Thành",
+      "address": "Vũng Tàu",
+      "email": "thanh456@gmail.com",
+      "phone": 48264,
+      "status": false,
+      "created": "20/07/2004"
+    },
+    {
+      "id": 9,
+      "student_name": "Bình",
+      "address": "Huế",
+      "email": "binh567@gmail.com",
+      "phone": 75319,
+      "status": true,
+      "created": "12/09/2003"
+    },
+    {
+      "id": 10,
+      "student_name": "Nhung",
+      "address": "Biên Hòa",
+      "email": "nhung678@gmail.com",
+      "phone": 86420,
+      "status": false,
+      "created": "18/10/2005"
+    },
+    {
+      "id": 11,
+      "student_name": "Phú",
+      "address": "Đà Lạt",
+      "email": "phu789@gmail.com",
+      "phone": 97531,
+      "status": true,
+      "created": "22/04/2004"
+    },
+    {
+      "id": 12,
+      "student_name": "Ngọc",
+      "address": "Nam Định",
+      "email": "ngoc890@gmail.com",
+      "phone": 86475,
+      "status": false,
+      "created": "03/05/2006"
+    },
+    {
+      "student_name": "Dương",
+      "address": "Sơn La",
+      "email": "duong@gmail.com",
+      "phone": 123454321,
+      "status": "on",
+      "created": "09/09/1999",
+      "id": 14
+    },
+    {
+      "student_name": "Trang1111",
+      "address": "Sơn La",
+      "email": "trang123@gmail.com",
+      "phone": 12345,
+      "status": true,
+      "created": "15/06/2005",
+      "id": 15
+    },
+    {
+      "student_name": "Trang124",
+      "address": "Sơn La",
+      "email": "trang123@gmail.com",
+      "phone": 12345,
+      "status": true,
+      "created": "15/06/2005",
+      "id": 16
+    },
+    {
+      "student_name": "Trang",
+      "address": "Sơn ",
+      "email": "",
+      "phone": 0,
+      "status": false,
+      "created": "",
+      "id": 17
+    },
+    {
+      "student_name": "Trang",
+      "address": "Sơn La",
+      "email": "trang@gmail.com",
+      "phone": 988701737,
+      "status": "status",
+      "created": "20/08/2006",
+      "id": 18
+    },
+    {
+      "student_name": "Trang",
+      "address": "Sơn La",
+      "email": "trang@gmail.com",
+      "phone": 988701737,
+      "status": "status",
+      "created": "20/08/2006",
+      "id": 19
+    },
+    {
+      "student_name": "Minh1222",
+      "address": "Hà Nội",
+      "email": "minh456@gmail.com",
+      "phone": 67890,
+      "status": false,
+      "created": "20/08/2006",
+      "id": 20
+    },
+    {
+      "student_name": "Minh1111",
+      "address": "Hà Nội",
+      "email": "minh456@gmail.com",
+      "phone": 67890,
+      "status": false,
+      "created": "20/08/2006",
+      "id": 21
+    },
+    {
+      "student_name": "Lan11",
+      "address": "Đà Nẵng1",
+      "email": "la1n789@gmail.com",
+      "phone": 543211,
+      "status": true,
+      "created": "10/01/20071",
+      "id": 22
+    },
+    {
+      "student_name": "chu",
+      "address": "Bắc Kạn",
+      "email": "chu@gmail.com",
+      "phone": 2334567,
+      "status": true,
+      "created": "10/01/2007",
+      "id": 23
     }
   ]
 }
